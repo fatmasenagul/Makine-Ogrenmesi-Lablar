@@ -31,3 +31,5 @@ Evet, önemlidir. Dengesiz veri setlerinde accuracy yanıltıcı olabilir denges
 Kullandığım veri seti sağlık verileri üzerine olduğu için false negative hatası ciddi sonuçlar doğurabilir. Bu durumda recall metriği önem kazanır. Aşağıda bu metriklerin sonucu verilmiştir.
 
 ![alt text](image-1.png)
+
+Bu sonuca göre precision ve recall arasındaki dengesizlik, modelin sınıf pozitif sınıf üzerinde daha düşük performans sergilediğini gösteriyor. Bu durum, modelin pozitif sınıfı tespit etme konusunda zorlandığını ancak negatif sınıf üzerinde oldukça iyi bir performans sergilediğini gösteririr.
