@@ -29,4 +29,5 @@ Değerlendirme metrikleri seçiminde problem ve sınıf dağılımı önemli mid
 Evet, önemlidir. Dengesiz veri setlerinde accuracy yanıltıcı olabilir dengesiz veri olma olasılığına karşın precision, recall, f1 skoru önemli metrikler haline gelir.  Bu metrikler sınıflar arasındaki dengesizliği göz önünde bulundurur.
 
 Kullandığım veri seti sağlık verileri üzerine olduğu için false negative hatası ciddi sonuçlar doğurabilir. Bu durumda recall metriği önem kazanır. Aşağıda bu metriklerin sonucu verilmiştir.
+
 ![alt text](image-1.png)
