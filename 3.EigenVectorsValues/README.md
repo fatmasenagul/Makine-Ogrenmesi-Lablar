@@ -1,25 +1,21 @@
 1-)
 Matris manipülasyonu nedir? 
 Matematiksel matrislerin üzerinde yapılan işlemlerin genel adıdır. Bu işlemler toplama, çarpma, transpoz alma, tersini alma, determinant hesaplama, matrisin sırasını değiştirme veya yeniden boyutlandırma olabilir.
-hocanın attığı kaynak
 
 Özdeğer ve Özvektör nedir?
 Matematikte, bir lineer transformasyon altında yönünü değiştirmeyen vektörlere özvektör denir.
 v bir vektörse ve ϕ bir lineer dönüşümse, bir ⁁  skaleri için ϕ(v) = v⁁ eşitliğini sağlayan tüm  v vektörlerine ϕ'nin özvektörü, ve ⁁ skalerine de ϕ'nin özdeğeri denir.
 Lineer dönüşümler vektörleri döndürerek, yansıtarak veya bükerek etkileyebilirler. Ancak v bu dönüşümün bir özvektörüyse, v bu dönüşümden sadece boyca uzayarak, kısalarak veya doğrultusunu değiştirmeden yönünü değiştirerek etkilenir. Boyca uzama ve kısalma miktarı ise bu dönüşümün özdeğerine tekabül eder.
-kaynak wikipedia
 
 Matris manipülasyonu, özdeğer ve özvektörler makine öğrenmesinin hangi yöntemler ve yaklaşımlarında kullanılmaktadır?
 
 PCA (Principal Component Analysis):
 PCA yüksek boyutlu verilerde en fazla bilgi içeren yönleri (bileşenleri) bulmak için kullanılan güçlü bir doğrusal dönüşüm tekniğidir.
 PCA’nın temelinde matris manipülasyonu, özdeğer ve  özvektör kavramları yer alır
-kaynak Introduction to machine learning with python  Andreas C. Müller & Sarah Guido
-
+ 
 LDA (Linear Discriminant Analysis):
 LDA, makine öğrenmesinde sınıflandırma için kullanılan hem boyut indirgeme hem de ayrım gücünü arttırma tekniğidir.
 Scatter matrislerinin özdeğer ve özvektör analizleriyle çalışır.
-kaynak Pattern Recognition and Machine Learning" — Christopher M. Bishop
 
 Markov Zincirleri:
 Markov zinciri, bir durumdan diğerine geçişin sadece mevcut duruma bağlı olduğu olasılık temelli bir sistemdir.
@@ -65,8 +61,11 @@ Linalg kullanılan kod O(n!) gibi bir karmaşıklığa sahiptir.
 Kullanılmayan kod ise O(n³) karmaşıklığa sahiptir.
 
 
+Kaynaklar:
+"Özdeğerler ve özvektörler." Vikipedi, Wikimedia Foundation
 
+Pattern Recognition and Machine Learning" — Christopher M. Bishop
 
-
+Introduction to Machine Learning with Python  Andreas C. Müller & Sarah Guido
 
 
