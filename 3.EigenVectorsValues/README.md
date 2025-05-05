@@ -63,10 +63,3 @@ Linalg kullanılmamış kodda yuvarlama hatası görülme ihtimali çoktur.
 
 Linalg kullanılan kod O(n!) gibi bir karmaşıklığa sahiptir.  
 Kullanılmayan kod ise O(n³) karmaşıklığa sahiptir.
-
-
-
-
-
-
-
